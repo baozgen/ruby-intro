@@ -8,6 +8,13 @@
 # screen.
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+# when I see an array, I want a loop...
+
+for suit in suits
+    for rank in ranks
+        puts "#{rank} of #{suit}."
+    end
+end
 
 # Sample output:
 # 2 of Clubs
